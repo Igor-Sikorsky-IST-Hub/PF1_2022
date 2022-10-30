@@ -78,3 +78,5 @@ How to work with this repository and how assessment process will be organized:
 [this_repo]: <https://github.com/Igor-Sikorsky-IST-Hub/PF1_2022>
 [project_structure_readme]: <Knowledge base/project_structure.md>
 [fork_info]: <https://docs.github.com/en/get-started/quickstart/fork-a-repo>
+[readme]: <README.md>
+[readme_ua]: <README.ua.md>

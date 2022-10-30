@@ -79,4 +79,4 @@
 [project_structure_readme]: <Knowledge base/project_structure.md>
 [fork_info]: <https://docs.github.com/en/get-started/quickstart/fork-a-repo>
 [readme]: <README.md>
-[reamde_ua]: <README.ua.md>
+[readme_ua]: <README.ua.md>
