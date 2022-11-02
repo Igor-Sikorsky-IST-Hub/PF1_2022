@@ -18,7 +18,7 @@
     2. В командному рядку (cmd, bash, powershell) викличте `git clone https://github.com/<your nickname>/PF1_2022.git`. На цьому кроці вас можуть запитати за логіни, паролі, тощо. Або пізніше. Після цього репозиторій уже буде у вас на машинці.
     3. Ще одне, що потрібно зробити, це додати шлях до батьківського репозиторію. Він також називається **upstream** репозиторій:
         ```
-        git remote add upstream https://github.com/Igor-Sikorsky-IST-Hub/PF1_2022
+        git remote add upstream https://github.com/Igor-Sikorsky-IST-Hub/PF1_2022.git
         ```
     > Команда `git remote -v` відображає інформацію про зв'язок вашого локального репозиторію із двома віддаленими: **origin** (ваш форк) та **upstream** (головний).
 

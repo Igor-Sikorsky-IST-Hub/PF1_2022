@@ -18,7 +18,7 @@ How to work with this repository and how assessment process will be organized:
     2. In the console call `git clone https://github.com/<your nickname>/PF1_2022.git`. On this step you may be asked for some logins and passwords (or later). Great, the repo is on your machine now.
     3. One more thing so far. You need to add path to the parent repository. It is called **upstream** repository:
         ```
-        git remote add upstream https://github.com/Igor-Sikorsky-IST-Hub/PF1_2022
+        git remote add upstream https://github.com/Igor-Sikorsky-IST-Hub/PF1_2022.git
         ```
     > Command `git remote -v` displays information about connection of your local repository to two repos: **origin** (the one you have) and the **upstream** (main parental).
 
