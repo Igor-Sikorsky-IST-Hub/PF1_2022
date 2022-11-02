@@ -24,12 +24,15 @@ public class Task6 {
         switch (i) {
             case 1:
                 expression = Math.sqrt(t);
+                break;
             case 2:
                 expression = 1 / (Math.sqrt(t));
+                break;
             default:
                 for (int k = 0; k <= i; k++) {
                     expression += k * t;
                 }
+                break;
 
         }
 
@@ -38,7 +41,7 @@ public class Task6 {
 
 
     static void printResults(double t, int i) {
-        System.out.print("i:"+ i + " t: "+t+" result: ");
+        System.out.print("t:"+ t + " i: "+i+" result: ");
         try {
             System.out.println(axx(t, i));
         } catch (IllegalArgumentException e) {
