@@ -26,11 +26,12 @@ public class task_63 {
         return newNumbers;
 
     }
-    static int findMax (int[] n ){
-        int max = 0;
-        for (int i = 0;i<n.length;i++ ){
-            if (n[i]>max) {
-                max = n[i] ;
+     static int findMax (int[] n ){
+        int max = n[0];
+
+        for (int num :n ){
+            if (num>max) {
+                max = num ;
             }
         }
         return max;
