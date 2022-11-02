@@ -1,6 +1,6 @@
 public class Task6 {
     public static void main(String[] args) {
-        printResults(1, 1);
+        printResults(4, 1);
         printResults(2, 2);
         printResults(4, 3);
         printResults(4, 4);
