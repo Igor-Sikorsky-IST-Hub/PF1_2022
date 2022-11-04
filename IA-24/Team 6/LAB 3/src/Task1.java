@@ -1,4 +1,3 @@
-
 import java.lang.Math;
 
 public class Task1 {
@@ -18,7 +17,6 @@ public class Task1 {
     }
 
     public static double axx(int k, double m) {
-    	double res = 0;
     	if ((k>30 || k<1) & m<0) {
     		throw new IllegalArgumentException("param k = " + k + ", param m = " + m);
     	}
@@ -27,7 +25,7 @@ public class Task1 {
         } else if (m<0) {
         	throw new IllegalArgumentException("param m = " + m);
         }
-       
+    	double res = 0;
         for (int i = 1; i <= k; i++) {
         	res +=  Math.sqrt(m/i) * Math.sin(m*i);
         }

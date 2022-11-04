@@ -1,4 +1,3 @@
-
 import java.lang.Math;
 
 public class Task7 {
@@ -17,14 +16,14 @@ public class Task7 {
     }
 
     public static double axx(int i, double t) {
-    	double res = 0;
     	if (t<=0 & i<1) {
     		throw new IllegalArgumentException("param t = " + t + ", param i = " + i);
     	} else if (t<=0) {
             throw new IllegalArgumentException("param t = " + t);
         } else if (i<1) {
         	throw new IllegalArgumentException("param i = " + i);
-        }	
+        }
+    	double res = 0;
         if (i == 1 || i == 2) {
         	return Math.log(t);
         } else if (i>2) {

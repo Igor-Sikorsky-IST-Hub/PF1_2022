@@ -1,4 +1,3 @@
-
 import java.lang.Math;
 
 public class Task13 {
@@ -21,10 +20,10 @@ public class Task13 {
     }
     
     public static double axx(double e) {
-    	double res = 0;
     	if (e<=0) {
     		throw new IllegalArgumentException("param ε = " + e);
     	}
+    	double res = 0;
     	int i = 1;
         while (Math.abs(countDodanok(i))>e) {
         	res += countDodanok(i);
