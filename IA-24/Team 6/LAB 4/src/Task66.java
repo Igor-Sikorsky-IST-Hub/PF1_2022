@@ -1,5 +1,3 @@
-package lab4;
-
 public class Task66 {
 	public static void main(String[] args) {
     	printResults(new int[] {1, 2 ,3}, new int[] {3, 2 ,1});
