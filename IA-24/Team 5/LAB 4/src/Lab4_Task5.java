@@ -52,12 +52,12 @@ public class Lab4_Task5 {
      */
     static void printResults(double[] m) {
         System.out.print("For { ");
-        if (m != null) {
+        if (m == null) {
+            System.out.print("NULL ");
+        } else {
             for(double i : m) {
                 System.out.print(i + "  ");
             }
-        } else {
-            System.out.print("NULL ");
         }
         System.out.print("} result: ");
         try {
