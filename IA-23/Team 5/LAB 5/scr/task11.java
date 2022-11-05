@@ -12,18 +12,29 @@ public class task11 {
     }
     public static void getFlawless(int[][] results){
             int i=0,j=0;
-            for(int[] l : results) {
-                for (int s : l)
-                    i = s == 2 ? i + 1 : s == 0 ? i : s == 1 ? i + 1 : i;
-                j = i >= 4 ? j + 1 : j;
-                i = 0;
+for (int k = 0; k < results.length; k++) {
+            for (int m = 0; m < results[0].length; m++) {
+                if (results[k][m] != 0 && k == m) {
+                    throw new IllegalArgumentException("Таблиця не підходить!!!");
+                }
+            }
+        }
 
-            }
-            if (j == 0){
-                throw new IllegalArgumentException("Жодна з команд не закінчила сезон без програшів!");
-            }
-            System.out.println("В цьому сезоні стільки команд закінчило без програшів: " + j);
-}
+        for (int[] l : results) {
+            for (int s : l)
+                if (s == 2)
+                    i = i + 1;
+                else if (s == 1) {
+                    i = i + 1;
+                }
+            if (i >= 4)
+                j = j + 1;
+            i = 0;
+
+        }
+
+        System.out.println("В цьому сезоні стільки команд закінчило без програшів: " + j);
+    }
     public static void printResult(int[][] results){
         try {
             getFlawless(results);
