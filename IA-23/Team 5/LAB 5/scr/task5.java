@@ -15,7 +15,13 @@ public class task5 {
             int[][] aa = new int[a][b];
             for(int i = 0; i < a; i++){
                 for(int j = 0; j < b; j++){
-                    aa[i][j] = i < j ? 0 : i > j ? 5 : 0;
+                     if (i < j)
+                        aa[i][j] = 0;
+                    else if (i > j) {
+                        aa[i][j] = 5;
+                    }
+                    else
+                        aa[i][j] = 0;
                     System.out.print(aa[i][j]);
                 }
                 System.out.println(" ");
