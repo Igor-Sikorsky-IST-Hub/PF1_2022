@@ -1,4 +1,4 @@
-public class Task38 {
+public class Task9_lab3 {
     private static double printResults(Integer t, Integer l) {
         double result = 0;
         if ((t < 1) | (l < 0)) {
