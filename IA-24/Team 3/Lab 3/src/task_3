@@ -1,0 +1,37 @@
+
+public class task_3 {
+    public static void main(String[] args) {
+        printResults(3.26, 2);
+        printResults(5.1, 10);
+        printResults(15.6, -20);
+        printResults(-1, 20);
+    }
+
+    static String function(double z, int k) {
+
+        if (k > 15 | k < 0) {
+            throw new IllegalArgumentException("param k = " + k);
+        } else if (z < 0) {
+            throw new IllegalArgumentException("param z = " + z);
+        } else {
+            double res = 0;
+            for (int i = 1; i < k; i++) {
+                res += (1 / Math.sqrt(z * i)) + (Math.tan(k / i));
+            }
+            String result = String.format("%.3f", res);
+            return result;
+        }
+    }
+
+
+    private static double printResults(double z, int k) {
+        System.out.print("k : ");
+        try {
+            System.out.println(function(z, k));
+        } catch (IllegalArgumentException e) {
+            System.out.println("EXCEPTION! " + e.getMessage());
+        }
+        return 0;
+    }
+
+}
