@@ -35,8 +35,7 @@ public class task5 {
             printResults(matrix4);
         }
 
-        static String clearNE(double[][] matrix) {
-            System.out.println("New matrix:");
+        static String  clearNE(double[][] matrix) {
             int len = matrix.length;
             for (int i = 0; i < len; i++) {
                 for (int j = 0; j < len; j++) {
@@ -47,16 +46,22 @@ public class task5 {
                     else {
                         matrix[i][j] = (int) 0;
                     }
-                    System.out.print((int) matrix[i][j] + "  ");
+
                 }
-                System.out.println();
             }
-            return (" ");
+            return ("");
         }
 
         public static void printResults(double[][] matrix) {
             try {
+                System.out.println("New matrix=");
                 System.out.println(clearNE(matrix));
+                for (int i = 0; i < matrix.length; i++) {
+                    for (int j = 0; j < matrix.length; j++) {
+                        System.out.print(matrix[i][j]+ "  ");
+                    }
+                    System.out.println();
+                }
             } catch (IllegalArgumentException e) {
                 System.out.println("Exception!!! Change the element of matrix");
             }
