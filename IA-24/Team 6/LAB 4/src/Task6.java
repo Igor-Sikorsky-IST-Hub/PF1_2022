@@ -1,5 +1,3 @@
-
-
 public class Task6 {
     public static void main(String[] args) {
     	printResults(new int[] {50, 10, 15, 0, 6});
