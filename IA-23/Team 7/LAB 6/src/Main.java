@@ -7,16 +7,8 @@ public class Main {
         printResult(new short[] {});
     }
 
-    public static boolean again(short[] a){
-        boolean t = true;
-        if(a.length==0){
-            t = false;
-        }
-        return t;
-    }
-
     public static short[] array(short[] a){
-        if(again(a)){
+        if(a.length>0){
             short num = 0;
             for(int i = 0; i< a.length;++i){
                 for(int k = 0; k<a.length - 1 - i; ++k){
@@ -35,7 +27,7 @@ public class Main {
     }
 
     public static void printResult(short[] a){
-        if(again(a)){
+        if(a.length>0){
             System.out.println("Матриця:");
             for(int i = 0; i<a.length; ++i) {
                 System.out.print(" " + array(a)[i] + " ");
