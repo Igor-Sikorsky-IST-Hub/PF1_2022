@@ -6,7 +6,7 @@ public class num2 {
         printResult(new short[] {});
     }
 
-    public static short[] array(short[] a){
+    public static short[] selectionsort(short[] a){
         if(a.length>0){
             short num = 0;
             short min = Short.MAX_VALUE;
@@ -33,7 +33,7 @@ public class num2 {
         if(a.length>0){
             System.out.println("Матриця:");
             for (int i = 0; i < a.length; ++i) {
-                System.out.print(" " + array(a)[i] + " ");
+                System.out.print(" " + selectionsort(a)[i] + " ");
             }
             System.out.println();
         }

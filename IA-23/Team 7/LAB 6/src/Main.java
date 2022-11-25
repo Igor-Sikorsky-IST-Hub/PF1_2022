@@ -7,7 +7,7 @@ public class Main {
         printResult(new short[] {});
     }
 
-    public static short[] array(short[] a){
+    public static short[] bubblesort(short[] a){
         if(a.length>0){
             short num = 0;
             for(int i = 0; i< a.length;++i){
@@ -30,7 +30,7 @@ public class Main {
         if(a.length>0){
             System.out.println("Матриця:");
             for(int i = 0; i<a.length; ++i) {
-                System.out.print(" " + array(a)[i] + " ");
+                System.out.print(" " + bubblesort(a)[i] + " ");
             }
             System.out.println();
         }
