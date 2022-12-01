@@ -1,4 +1,6 @@
-public class Task15_lab3 {
+package lab3;
+
+public class Task15 {
     public static void main(String[] args) {
         printSum(0.01);
         printSum(0);

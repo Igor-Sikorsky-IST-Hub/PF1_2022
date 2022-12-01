@@ -1,4 +1,6 @@
-public class Task3_lab3 {
+package lab3;
+
+public class Task3 {
     public static void main(String[] args) {
 
         System.out.println(function(9.19, 10));

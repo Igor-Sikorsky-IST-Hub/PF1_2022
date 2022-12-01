@@ -1,4 +1,6 @@
-public class Task9_lab3 {
+package lab3;
+
+public class Task9 {
     private static double printResults(Integer t, Integer l) {
         double result = 0;
         if ((t < 1) | (l < 0)) {
