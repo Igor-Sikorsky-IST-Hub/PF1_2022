@@ -1,20 +1,18 @@
 public class Main {
     public static void main(String[] args){
-        Drop drop = new Drop("Краплі", 123, 50);
-        Pill pill = new Pill("Таблетки", 234);
-        Pill pill1 = new Pill("Краплі в ніс", 250);
+        Drop drop = new Drop("Краплі", 100, 100);
+        Pill pill = new Pill(1, "pill", 50);
+        Pill pill1 = new Pill(2, "pill", 50);
         pill.buy();
-        drop.setDiscount(50);
-        drop.newCost();
+        drop.newCost(50);
         drop.buy();
-        System.out.println(Drop.generalCost);
-        System.out.println(drop);
-        System.out.println(pill);
-
+        System.out.println(Medicamente.generalCost);
+        System.out.println(pill1.equals(pill));
     }
 }
 
 abstract class Medicamente {
+
     double discount;
     final String name;
     double cost;
@@ -32,7 +30,7 @@ abstract class Medicamente {
     }
     public double newCost() {
         if (discount > 0 & discount<=100) {
-            cost = cost * discount / 100;
+            cost = cost - cost * discount / 100;
             return cost;
         } else {
             throw new IllegalArgumentException();
@@ -42,22 +40,19 @@ abstract class Medicamente {
     public double newCost(double discount) {
         this.discount = discount;
         if (discount > 0 & discount<=100) {
-            cost = cost * discount / 100;
+            cost = cost - cost * discount / 100;
             return cost;
         } else {
             throw new IllegalArgumentException();
         }
     }
-
-
-
     public double buy() {
         generalCost += cost;
         return generalCost;
     }
 
-    public String setName() {
-        return this.name;
+    public String getName() {
+        return name;
     }
 
     public double getDiscount() {
@@ -78,19 +73,17 @@ abstract class Medicamente {
 
     @Override
     public boolean equals(Object obj) {
-        boolean flag = false;
         if (obj instanceof Medicamente) {
             Medicamente medicamente = (Medicamente) obj;
-            if(medicamente.setName().equals(((Medicamente) obj).setName())) {
-                flag = true;
+            if(medicamente.getName().equals(getName()) && medicamente.cost == cost && medicamente.discount ==discount) {
+                return true;
             } else {
-                flag = false;
+                return false;
             }
         }
         else {
-            flag = false;
+            return false;
         }
-        return flag;
     }
 
 
@@ -104,19 +97,13 @@ class Pill extends Medicamente {
     public Pill(String name, double cost) {
         super(name, cost);
     }
-
-    @Override
-    public double buy() {
-        return super.buy();
-    }
-
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
 }
 
-class Drop extends Medicamente{
+class Drop extends Medicamente {
     double millilitersInOneBottle;
 
     private Drop(String name, double cost) {
@@ -138,15 +125,9 @@ class Drop extends Medicamente{
     }
 
     @Override
-    public double buy() {
-        return super.buy();
-    }
-
-    @Override
     public String toString() {
         return "Drop{" + "millilitersInOneBottle=" + millilitersInOneBottle + ", discount=" + discount + "%" + ", name='" + name + '\'' + ", cost=" + cost + '}';
     }
-
 
 
     public double getMillilitersInOneBottle() {
@@ -157,5 +138,20 @@ class Drop extends Medicamente{
         this.millilitersInOneBottle = millilitersInOneBottle;
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        boolean flag;
+        if (obj instanceof Pill) {
+            Drop drop = (Drop) obj;
+            if (getMillilitersInOneBottle() == drop.getMillilitersInOneBottle()) {
+                return super.equals(obj);
+            }
+            else {
+                return false;
+            }
+        }
+        else {
+            return false;
+        }
+    }
 }
