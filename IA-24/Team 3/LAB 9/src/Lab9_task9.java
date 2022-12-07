@@ -2,6 +2,7 @@ public class Lab9_task9 {
     public static void main(String[] args) {
         printResults("");
         printResults("The user with the nickname koala757677 this month wrote 3 times more comments than the user with the nickname croco181dile920 4 months ago");
+        printResults("465ad ads94798 sad9asd7 64 asd");
     }
 
     private static int printResults(String sentence) {
@@ -20,13 +21,12 @@ public class Lab9_task9 {
             throw new NumberFormatException();
         }
         int k = 0;
-        String[] splited = sentence.split(" ");
+        String[] splited = sentence.toLowerCase().split(" ");
         for (String i : splited) {
-            if (i.matches("([0-9]+)") && i.matches("([a-zA-Z0-9]+)") )  {
+            if (i.matches("([a-z]+[0-9]+.*)|([0-9]+[a-z]+)")) {
                 k++;
             }
         }
         return k;
     }
-
 }
