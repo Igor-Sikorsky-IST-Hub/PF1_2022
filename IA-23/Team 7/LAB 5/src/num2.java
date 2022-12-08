@@ -6,27 +6,27 @@ public class num2 {
     }
 
     public static boolean array(int[][] a, int[][] b) {
-        boolean t = true;
+
         if(a.length==0){
-            t=false;
+            return false;
         }
         if(b.length==0){
-            t=false;
+            return false;
         }
         for (int i = 0; i < a.length; ++i){
             if (a[0].length != a[i].length) {
-                t = false;
+                return false;
             }
         }
         for (int i = 0; i < a.length; ++i) {
             if (b[0].length != b[i].length) {
-                t = false;
+                return false;
             }
         }
         if (a[1].length != b.length) {
-            t = false;
+            return false;
         }
-        return t;
+        return true;
     }
 
     public static int[][] multiply(int[][] a, int[][] b) {
@@ -59,8 +59,7 @@ public class num2 {
             System.out.println();
         }
         else{
-            System.out.println("IllegalArgumentException");
+            throw new IllegalArgumentException("Невірно задані матриці");
         }
     }
 }
-

@@ -6,13 +6,12 @@ public class Main {
 
 
     public static boolean array(int[][] a){
-        boolean t = true;
         for (int i = 1; i < a.length; ++i) {
             if (a[0].length != a[i].length) {
-                t = false;
+                return false;
             }
         }
-        return t;
+        return true;
     }
 
     public static int minElementInLargestColumn(int[][] a){
@@ -51,7 +50,7 @@ public class Main {
             System.out.println("Найменший елемент: " + minElementInLargestColumn(a));
         }
         else{
-            System.out.println("IllegalArgumentException");
+            throw new IllegalArgumentException("Невірно заданий масив");
         }
     }
 }
