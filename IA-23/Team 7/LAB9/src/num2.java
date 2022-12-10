@@ -4,43 +4,45 @@ public class num2 {
         printResult(40356);
     }
 
-    public static String intToHexString(int i) {
+    static String intToHexString(int i) {
         int b;
-        String newNumber = "";
+        StringBuilder changeAbleString = new StringBuilder("");
         while (i != 0) {
             for (int k = 0; true; k++) {
                 if (i < Math.pow(16, k)) {
                     b = (int) Math.floor(i / Math.pow(16, k - 1));
                     if (b > 0 && b < 10) {
-                        newNumber += Integer.toString(b);
+                        changeAbleString = changeAbleString.append(b);
                     }
                     if (b == 11) {
-                        newNumber += "B";
+                        changeAbleString = changeAbleString.append("B");
                     }
                     if (b == 10) {
-                        newNumber += "A";
+                        changeAbleString = changeAbleString.append("A");
                     }
                     if (b == 12) {
-                        newNumber += "C";
+                        changeAbleString = changeAbleString.append("C");
                     }
                     if (b == 13) {
-                        newNumber += "D";
+                        changeAbleString = changeAbleString.append("D");
                     }
                     if (b == 14) {
-                        newNumber += "E";
+                        changeAbleString = changeAbleString.append("E");
                     }
                     if (b == 15) {
-                        newNumber += "F";
+                        changeAbleString = changeAbleString.append("F");
                     }
                     i = (int) (i % Math.pow(16, k - 1));
                     break;
                 }
             }
         }
-        return newNumber;
+        String a;
+        a = changeAbleString.toString();
+        return a;
     }
 
-    public static void printResult(int i){
+    static void printResult(int i){
         System.out.println(i);
         System.out.println(intToHexString(i));
         System.out.println();
