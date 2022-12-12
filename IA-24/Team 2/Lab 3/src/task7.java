@@ -1,4 +1,4 @@
-public class task7 {
+public class Task7 {
     public static void main(String[] args) {
         printResults(0,  1);
         printResults(1,  10);

@@ -1,4 +1,4 @@
-public class task8 {
+public class Task8 {
 
     public static void main(String[] args) {
         int[][] a = {{1, 3, 1}, {2, 2, 6}, {0, 3, 0}};
