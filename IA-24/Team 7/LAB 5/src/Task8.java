@@ -1,4 +1,4 @@
-public class Lab5o8 {
+public class Task8 {
 
     public static void result(int[][]a, int[][]b){
         if (a[0].length == b.length){
