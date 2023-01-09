@@ -27,6 +27,7 @@ public class task1 {
             resultArr[arr.length] = element;
         }
 
+
         return resultArr;
     }
 

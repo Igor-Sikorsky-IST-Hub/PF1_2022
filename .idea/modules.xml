@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 8/LAB 1/LAB 1.iml" filepath="$PROJECT_DIR$/IA-23/Team 8/LAB 1/LAB 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 7/LAB 10/LAB 10.iml" filepath="$PROJECT_DIR$/IA-23/Team 7/LAB 10/LAB 10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 10/LAB 101.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 10/LAB 101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 10/LAB 102.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 10/LAB 102.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 8/LAB 10/LAB 103.iml" filepath="$PROJECT_DIR$/IA-24/Team 8/LAB 10/LAB 103.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 8/LAB 2/LAB 2.iml" filepath="$PROJECT_DIR$/IA-23/Team 8/LAB 2/LAB 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 6/LAB 2/LAB 21.iml" filepath="$PROJECT_DIR$/IA-23/Team 6/LAB 2/LAB 21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 2/LAB 22.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 2/LAB 22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 2/LAB 3/LAB 3.iml" filepath="$PROJECT_DIR$/IA-23/Team 2/LAB 3/LAB 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 6/LAB 3/LAB 31.iml" filepath="$PROJECT_DIR$/IA-24/Team 6/LAB 3/LAB 31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 3/LAB 32.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 3/LAB 32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/LAB 3/LAB 33.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/LAB 3/LAB 33.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 8/LAB 3/LAB 34.iml" filepath="$PROJECT_DIR$/IA-23/Team 8/LAB 3/LAB 34.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 7/LAB 3/LAB 35.iml" filepath="$PROJECT_DIR$/IA-24/Team 7/LAB 3/LAB 35.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 4/LAB 3/LAB 36.iml" filepath="$PROJECT_DIR$/IA-24/Team 4/LAB 3/LAB 36.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 3/LAB 37.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 3/LAB 37.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 3/LAB 38.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 3/LAB 38.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 8/LAB 3/LAB 39.iml" filepath="$PROJECT_DIR$/IA-24/Team 8/LAB 3/LAB 39.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 2/LAB 4/LAB 4.iml" filepath="$PROJECT_DIR$/IA-23/Team 2/LAB 4/LAB 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 6/LAB 4/LAB 41.iml" filepath="$PROJECT_DIR$/IA-24/Team 6/LAB 4/LAB 41.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 8/LAB 4/LAB 410.iml" filepath="$PROJECT_DIR$/IA-24/Team 8/LAB 4/LAB 410.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 4/LAB 42.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 4/LAB 42.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/LAB 4/LAB 43.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/LAB 4/LAB 43.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 8/LAB 4/LAB 44.iml" filepath="$PROJECT_DIR$/IA-23/Team 8/LAB 4/LAB 44.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 4/LAB 4/LAB 45.iml" filepath="$PROJECT_DIR$/IA-24/Team 4/LAB 4/LAB 45.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 7/LAB 4/LAB 46.iml" filepath="$PROJECT_DIR$/IA-24/Team 7/LAB 4/LAB 46.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 6/LAB 4/LAB 47.iml" filepath="$PROJECT_DIR$/IA-23/Team 6/LAB 4/LAB 47.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 4/LAB 48.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 4/LAB 48.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 4/LAB 49.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 4/LAB 49.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 5/LAB 5/LAB 5.iml" filepath="$PROJECT_DIR$/IA-23/Team 5/LAB 5/LAB 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 2/LAB 5/LAB 51.iml" filepath="$PROJECT_DIR$/IA-23/Team 2/LAB 5/LAB 51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 4/LAB 5/LAB 510.iml" filepath="$PROJECT_DIR$/IA-23/Team 4/LAB 5/LAB 510.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 5/LAB 511.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 5/LAB 511.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 8/LAB 5/LAB 512.iml" filepath="$PROJECT_DIR$/IA-24/Team 8/LAB 5/LAB 512.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 6/LAB 5/LAB 52.iml" filepath="$PROJECT_DIR$/IA-24/Team 6/LAB 5/LAB 52.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 5/LAB 53.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 5/LAB 53.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 7/LAB 5/LAB 54.iml" filepath="$PROJECT_DIR$/IA-23/Team 7/LAB 5/LAB 54.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 1/LAB 5/LAB 55.iml" filepath="$PROJECT_DIR$/IA-23/Team 1/LAB 5/LAB 55.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 4/LAB 5/LAB 56.iml" filepath="$PROJECT_DIR$/IA-24/Team 4/LAB 5/LAB 56.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 7/LAB 5/LAB 57.iml" filepath="$PROJECT_DIR$/IA-24/Team 7/LAB 5/LAB 57.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 6/LAB 5/LAB 58.iml" filepath="$PROJECT_DIR$/IA-23/Team 6/LAB 5/LAB 58.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 5/LAB 59.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 5/LAB 59.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 5/LAB 6/LAB 6.iml" filepath="$PROJECT_DIR$/IA-23/Team 5/LAB 6/LAB 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 2/LAB 6/LAB 61.iml" filepath="$PROJECT_DIR$/IA-23/Team 2/LAB 6/LAB 61.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 6/LAB 610.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 6/LAB 610.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 6/LAB 611.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 6/LAB 611.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 4/LAB 6/LAB 612.iml" filepath="$PROJECT_DIR$/IA-23/Team 4/LAB 6/LAB 612.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 8/LAB 6/LAB 613.iml" filepath="$PROJECT_DIR$/IA-24/Team 8/LAB 6/LAB 613.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 6/LAB 6/LAB 62.iml" filepath="$PROJECT_DIR$/IA-24/Team 6/LAB 6/LAB 62.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 6/LAB 63.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 6/LAB 63.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/LAB 6/LAB 64.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/LAB 6/LAB 64.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 7/LAB 6/LAB 65.iml" filepath="$PROJECT_DIR$/IA-23/Team 7/LAB 6/LAB 65.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 1/LAB 6/LAB 66.iml" filepath="$PROJECT_DIR$/IA-23/Team 1/LAB 6/LAB 66.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 4/LAB 6/LAB 67.iml" filepath="$PROJECT_DIR$/IA-24/Team 4/LAB 6/LAB 67.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 7/LAB 6/LAB 68.iml" filepath="$PROJECT_DIR$/IA-24/Team 7/LAB 6/LAB 68.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 6/LAB 6/LAB 69.iml" filepath="$PROJECT_DIR$/IA-23/Team 6/LAB 6/LAB 69.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 5/LAB 7/LAB 7.iml" filepath="$PROJECT_DIR$/IA-23/Team 5/LAB 7/LAB 7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 2/LAB 7/LAB 71.iml" filepath="$PROJECT_DIR$/IA-23/Team 2/LAB 7/LAB 71.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 7/LAB 710.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 7/LAB 710.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 4/LAB 7/LAB 711.iml" filepath="$PROJECT_DIR$/IA-23/Team 4/LAB 7/LAB 711.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 8/LAB 7/LAB 712.iml" filepath="$PROJECT_DIR$/IA-24/Team 8/LAB 7/LAB 712.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 6/LAB 7/LAB 72.iml" filepath="$PROJECT_DIR$/IA-24/Team 6/LAB 7/LAB 72.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 7/LAB 73.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 7/LAB 73.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/LAB 7/LAB 74.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/LAB 7/LAB 74.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 7/LAB 7/LAB 75.iml" filepath="$PROJECT_DIR$/IA-23/Team 7/LAB 7/LAB 75.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 1/LAB 7/LAB 76.iml" filepath="$PROJECT_DIR$/IA-23/Team 1/LAB 7/LAB 76.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 4/LAB 7/LAB 77.iml" filepath="$PROJECT_DIR$/IA-24/Team 4/LAB 7/LAB 77.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 6/LAB 7/LAB 78.iml" filepath="$PROJECT_DIR$/IA-23/Team 6/LAB 7/LAB 78.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 7/LAB 79.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 7/LAB 79.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 5/LAB 8/LAB 8.iml" filepath="$PROJECT_DIR$/IA-23/Team 5/LAB 8/LAB 8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 6/LAB 8/LAB 81.iml" filepath="$PROJECT_DIR$/IA-24/Team 6/LAB 8/LAB 81.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 8/LAB 82.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 8/LAB 82.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/LAB 8/LAB 83.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/LAB 8/LAB 83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 6/LAB 8/LAB 84.iml" filepath="$PROJECT_DIR$/IA-23/Team 6/LAB 8/LAB 84.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 8/LAB 85.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 8/LAB 85.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 2/LAB 8/LAB 86.iml" filepath="$PROJECT_DIR$/IA-24/Team 2/LAB 8/LAB 86.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 8/LAB 87.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 8/LAB 87.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 8/LAB 8/LAB 88.iml" filepath="$PROJECT_DIR$/IA-24/Team 8/LAB 8/LAB 88.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 4/LAB 8/LAB 89.iml" filepath="$PROJECT_DIR$/IA-23/Team 4/LAB 8/LAB 89.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 5/LAB 9/LAB 9.iml" filepath="$PROJECT_DIR$/IA-23/Team 5/LAB 9/LAB 9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 6/LAB 9/LAB 91.iml" filepath="$PROJECT_DIR$/IA-24/Team 6/LAB 9/LAB 91.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 3/LAB 9/LAB 92.iml" filepath="$PROJECT_DIR$/IA-24/Team 3/LAB 9/LAB 92.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/LAB 9/LAB 93.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/LAB 9/LAB 93.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 1/LAB 9/LAB 94.iml" filepath="$PROJECT_DIR$/IA-23/Team 1/LAB 9/LAB 94.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 3/LAB 9/LAB 95.iml" filepath="$PROJECT_DIR$/IA-23/Team 3/LAB 9/LAB 95.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 1/LAB 9/LAB 96.iml" filepath="$PROJECT_DIR$/IA-24/Team 1/LAB 9/LAB 96.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 4/LAB 9/LAB 97.iml" filepath="$PROJECT_DIR$/IA-23/Team 4/LAB 9/LAB 97.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/LAB5/LAB5.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/LAB5/LAB5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 7/LAB8/LAB8.iml" filepath="$PROJECT_DIR$/IA-23/Team 7/LAB8/LAB8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 7/LAB9/LAB9.iml" filepath="$PROJECT_DIR$/IA-23/Team 7/LAB9/LAB9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team 2/LAB9/LAB91.iml" filepath="$PROJECT_DIR$/IA-23/Team 2/LAB9/LAB91.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 2/Lab 3/Lab 3.iml" filepath="$PROJECT_DIR$/IA-24/Team 2/Lab 3/Lab 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 2/Lab 4/Lab 4.iml" filepath="$PROJECT_DIR$/IA-24/Team 2/Lab 4/Lab 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 2/Lab 5/Lab 5.iml" filepath="$PROJECT_DIR$/IA-24/Team 2/Lab 5/Lab 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 2/Lab 6/Lab 6.iml" filepath="$PROJECT_DIR$/IA-24/Team 2/Lab 6/Lab 6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team 2/Lab 7/Lab 7.iml" filepath="$PROJECT_DIR$/IA-24/Team 2/Lab 7/Lab 7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/TEAM 5/Lab10/Lab10.iml" filepath="$PROJECT_DIR$/IA-24/TEAM 5/Lab10/Lab10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PF1_2022.iml" filepath="$PROJECT_DIR$/.idea/PF1_2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-23/Team4/Team4.iml" filepath="$PROJECT_DIR$/IA-23/Team4/Team4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IA-24/Team7/Team7.iml" filepath="$PROJECT_DIR$/IA-24/Team7/Team7.iml" />
+    </modules>
+  </component>
+</project>
