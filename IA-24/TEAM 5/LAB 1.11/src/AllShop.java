@@ -1,7 +1,13 @@
 import java.util.*;
 
+class ShopNameComparator implements Comparator<Shop>{
+    public int compare(Shop s1,Shop s2){
+        return s1.getName().compareTo(s2.getName());
+    }
+}
+
 public class AllShop {
-    private Set<Shop> Allshops = new TreeSet<Shop>();
+    private Set<Shop> Allshops = new TreeSet<Shop>(new ShopNameComparator());
 
     public AllShop(Set<Shop> allshops) {
         Allshops = allshops;
