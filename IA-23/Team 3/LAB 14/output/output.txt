@@ -1,0 +1,3 @@
+hello
+hello after white
+again hello after two whites
