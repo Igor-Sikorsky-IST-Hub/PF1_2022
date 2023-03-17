@@ -6,9 +6,9 @@ class Department{
     Worker headOfDepartment;
     HashSet<Worker> workers;
 
-    public Department(String name, Worker headOfDepartment, HashSet<Worker> workers) throws SmallNumberOfWorkers {
+    public Department(String name, Worker headOfDepartment, HashSet<Worker> workers) throws SmallNumberOfWorkersException {
         if (workers.size()>5){
-            throw new SmallNumberOfWorkers();
+            throw new SmallNumberOfWorkersException();
         }
         this.name = name;
         this.headOfDepartment = headOfDepartment;

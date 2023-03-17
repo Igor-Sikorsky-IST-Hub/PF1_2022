@@ -17,7 +17,7 @@ class Company{
         Department directors = null;
         try {
             directors = new Department("Cabinet of Director", manager, director);
-        } catch (SmallNumberOfWorkers e) {
+        } catch (SmallNumberOfWorkersException e) {
             throw new RuntimeException(e);
         }
         departments.add(directors);

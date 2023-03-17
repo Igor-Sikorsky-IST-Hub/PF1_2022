@@ -48,7 +48,7 @@ public class Lab13 {
         Department plant = null;
         try {
             plant = new Department("Plant", igorSikorsky, workersOfPlant);
-        } catch (SmallNumberOfWorkers e) {
+        } catch (SmallNumberOfWorkersException e) {
             System.out.println("Замало працівників у департаменті");
         }
 
@@ -56,7 +56,7 @@ public class Lab13 {
         Department departmentOfSelling = null;
         try {
             departmentOfSelling = new Department("DepartmentOfSelling", nassimTaleb, sellers);
-        } catch (SmallNumberOfWorkers e) {
+        } catch (SmallNumberOfWorkersException e) {
             System.out.println("Замало працівників у департаменті");
         }
 
@@ -64,7 +64,7 @@ public class Lab13 {
         Department departmentOfMarketing = null;
         try {
             departmentOfMarketing = new Department("Marketing", ivanLeleka, workersOfMarketing);
-        } catch (SmallNumberOfWorkers e) {
+        } catch (SmallNumberOfWorkersException e) {
             System.out.println("Замало працівників у департаменті");
         }
 
